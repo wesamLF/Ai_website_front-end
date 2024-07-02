@@ -7,7 +7,7 @@ const Nav = () => {
             </div>
 
             <div className="">
-                <img src="./logo.svg" alt="" width={"290px"} />
+                <img src="./logo.svg" alt="" width={"280px"} />
             </div>
             <div className=" flex items-center ps-10 text-[20.2px] text-[#646977]" style={{ fontFamily: 'Roboto' }}>
                 <ul className="flex flex-row gap-14 justify-start items-center ">
@@ -19,6 +19,7 @@ const Nav = () => {
                     <li className="px-6 py-2 text-white rounded-[15px]  bg-gradient-to-r from-purple-500 to-blue-500">Free Signup</li>
                 </ul>
             </div>
+
         </nav>
     )
 }
