@@ -1,0 +1,16 @@
+.custom-shadow::before {
+    content: '';
+    /* Required for pseudo-elements */
+    position: absolute;
+    /* Position relative to the parent */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Full width of the parent */
+    height: 100%;
+    /* Full height of the parent */
+    transform: rotate(15deg);
+    -webkit-box-shadow: inset 0px 0px 0px 200px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 0px 200px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 0px 200px rgba(0, 0, 0, 1);
+}
