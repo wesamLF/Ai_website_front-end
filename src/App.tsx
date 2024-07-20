@@ -7,7 +7,7 @@ function App() {
     <>
 
       <Nav />
-      <div className="mx-auto px-10 lg:px-[200px] xl:px-[300px]  bg-bldue-100 ">
+      <div className="mx-auto px-4 lg:px-[200px] xl:px-[300px]  bg-bldue-100 ">
         <Hero />
 
       </div>

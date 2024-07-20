@@ -3,7 +3,9 @@ const Hero = () => {
     return (
         <>
             <section className='flex flex-col items-center justify-center py-24 '>
-                <h1 className='text-[60px] text-center text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-[#FFE44B] '>
+                <h1 className=' text-6xl md:text-[60px] text-center text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-[#FFE44B] 
+                
+                '>
                     <strong>AI</strong> to write code, blogs & more</h1>
                 <p className=" text-[22px] text-[#646977] max-w-3xl text-center mt-2">Enhance everything you do by using the latest from OpenAI to solve problems, write solutions and make life easier.</p>
                 <button className=' text-white font-semibold rounded-lg py-3 px-7 mt-6 bg-gradient-to-r from-teal-500 to-indigo-700'>
@@ -57,7 +59,7 @@ const Hero = () => {
                 </div>
 
 
-                <ul className=" flex justify-between flex-wrap gap-2 mt-5 text-[#1F00BB]">
+                <ul className=" flex justify-center md:justify-between flex-wrap gap-2 mt-5 text-[#1F00BB]">
                     <li className="py-2 px-6 bg-white rounded-xl">Explain Code</li>
                     <li className="py-2 px-6 bg-[#A998FF] rounded-xl">Regex</li>
                     <li className="py-2 px-6 bg-[#A998FF] rounded-xl">Convert Code</li>
